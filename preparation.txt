@@ -1,0 +1,18 @@
+
+    Note that this was done on a Raspberry Pi running Debian Stretch, kernel 4.14.98.
+
+    Change the bluetooth name to Nintendo Switch (or whatever you want) with:
+sudo hciconfig hci0 name 'Nintendo Switch' # change name
+sudo hciconfig hci0 down # turn off bluetooth device
+sudo hciconfig hci0 up   # turn back on with new name
+
+    Many things, such as sdptool, are broken in later builds. Fix this by changing:
+ExecStart=/usr/lib/bluetooth/bluetoothd
+    to:
+ExecStart=/usr/lib/bluetooth/bluetoothd --compat
+    in:
+/etc/systemd/system/dbus-org.bluez.service
+    then reload with:
+sudo systemctl daemon-reload
+sudo systemctl restart bluetooth
+

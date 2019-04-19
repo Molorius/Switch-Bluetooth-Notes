@@ -1,0 +1,105 @@
+Browsing 98:B6:E9:E1:C8:6F ...
+Attribute Identifier : 0x0 - ServiceRecordHandle
+  Integer : 0x0
+Attribute Identifier : 0x1 - ServiceClassIDList
+  Data Sequence
+    UUID16 : 0x1000 - ServiceDiscoveryServerServiceClassID
+Attribute Identifier : 0x4 - ProtocolDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x0100 - L2CAP
+      Channel/Port (Integer) : 0x1
+    Data Sequence
+      UUID16 : 0x0001 - SDP
+Attribute Identifier : 0x5 - BrowseGroupList
+  Data Sequence
+    UUID16 : 0x1002 - PublicBrowseGroup
+Attribute Identifier : 0x6 - LanguageBaseAttributeIDList
+  Data Sequence
+    Code ISO639 (Integer) : 0x656e
+    Encoding (Integer) : 0x6a
+    Base Offset (Integer) : 0x100
+Attribute Identifier : 0x9 - BluetoothProfileDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x0100 - L2CAP
+      Version (Integer) : 0x100
+Attribute Identifier : 0x100
+  Data : 57 69 72 65 6c 65 73 73 20 47 61 6d 65 70 61 64 00
+Attribute Identifier : 0x101
+  Data : 47 61 6d 65 70 61 64 00
+Attribute Identifier : 0x200 - VersionNumberList
+  Data Sequence
+    Integer : 0x100
+
+Failed to connect to SDP server on 98:B6:E9:E1:C8:6F: Connection refused
+Attribute Identifier : 0x0 - ServiceRecordHandle
+  Integer : 0x10000
+Attribute Identifier : 0x1 - ServiceClassIDList
+  Data Sequence
+    UUID16 : 0x1124 - HumanInterfaceDeviceService (HID)
+Attribute Identifier : 0x4 - ProtocolDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x0100 - L2CAP
+      Channel/Port (Integer) : 0x11
+    Data Sequence
+      UUID16 : 0x0011 - HIDP
+Attribute Identifier : 0x5 - BrowseGroupList
+  Data Sequence
+    UUID16 : 0x1002 - PublicBrowseGroup
+Attribute Identifier : 0x6 - LanguageBaseAttributeIDList
+  Data Sequence
+    Code ISO639 (Integer) : 0x656e
+    Encoding (Integer) : 0x6a
+    Base Offset (Integer) : 0x100
+Attribute Identifier : 0x9 - BluetoothProfileDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x1124 - HumanInterfaceDeviceService (HID)
+      Version (Integer) : 0x101
+Attribute Identifier : 0xd - AdditionalProtocolDescriptorLists
+  Data Sequence
+    Data Sequence
+      Data Sequence
+        UUID16 : 0x0100 - L2CAP
+        Integer : 0x13
+      Data Sequence
+        UUID16 : 0x0011 - HIDP
+Attribute Identifier : 0x100
+  Data : 57 69 72 65 6c 65 73 73 20 47 61 6d 65 70 61 64 00
+Attribute Identifier : 0x101
+  Data : 47 61 6d 65 70 61 64 00
+Attribute Identifier : 0x102
+  Data : 4e 69 6e 74 65 6e 64 6f 00
+Attribute Identifier : 0x201 - ParserVersion
+  Integer : 0x111
+Attribute Identifier : 0x202 - DeviceSubclass
+  Integer : 0x8
+Attribute Identifier : 0x203 - CountryCode
+  Integer : 0x21
+Attribute Identifier : 0x204 - VirtualCable
+  Integer : 0x1
+Attribute Identifier : 0x205 - ReconnectInitiate
+  Integer : 0x1
+Attribute Identifier : 0x206 - DescriptorList
+  Data Sequence
+    Data Sequence
+      Integer : 0x22
+      Data : 05 01 09 05 a1 01 06 01 ff 85 21 09 21 75 08 95 30 81 02 85 30 09 30 75 08 95 30 81 02 85 31 09 31 75 08 96 69 01 81 02 85 32 09 32 75 08 96 69 01 81 02 85 33 09 33 75 08 96 69 01 81 02 85 3f 05 09 19 01 29 10 15 00 25 01 75 01 95 10 81 02 05 01 09 39 15 00 25 07 75 04 95 01 81 42 05 09 75 04 95 01 81 01 05 01 09 30 09 31 09 33 09 34 16 00 00 27 ff ff 00 00 75 10 95 04 81 02 06 01 ff 85 01 09 01 75 08 95 30 91 02 85 10 09 10 75 08 95 30 91 02 85 11 09 11 75 08 95 30 91 02 85 12 09 12 75 08 95 30 91 02 c0 00
+Attribute Identifier : 0x207 - LangIDBaseList
+  Data Sequence
+    Data Sequence
+      Integer : 0x409
+      Integer : 0x100
+Attribute Identifier : 0x209 - BatteryPower
+  Integer : 0x1
+Attribute Identifier : 0x20a - RemoteWakeup
+  Integer : 0x1
+Attribute Identifier : 0x20c - SupervisionTimeout
+  Integer : 0xc80
+Attribute Identifier : 0x20d - NormallyConnectable
+  Integer : 0x0
+Attribute Identifier : 0x20e - BootDevice
+  Integer : 0x0
+
